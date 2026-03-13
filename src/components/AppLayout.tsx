@@ -1,5 +1,5 @@
 import React from "react";
-import { Shield, Bell, Settings, User, Menu } from "lucide-react";
+import { Shield, Bell, User, Menu } from "lucide-react";
 
 export const AppLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -11,14 +11,13 @@ export const AppLayout = ({ children }: { children: React.ReactNode }) => {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-teal-600 text-white">
               <Shield className="h-5 w-5" />
             </div>
-            <span className="text-xl font-bold tracking-tight text-slate-900">AthleteSafe</span>
+            <span className="text-xl font-bold tracking-tight text-slate-900">InjuryIQ</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8">
             <a href="#" className="text-sm font-medium text-slate-600 hover:text-teal-600">Dashboard</a>
-            <a href="#" className="text-sm font-medium text-slate-600 hover:text-teal-600">Roster</a>
-            <a href="#" className="text-sm font-medium text-slate-600 hover:text-teal-600">Compliance</a>
-            <a href="#" className="text-sm font-medium text-slate-600 hover:text-teal-600">Reports</a>
+            <a href="#" className="text-sm font-medium text-slate-600 hover:text-teal-600">Safety Insights</a>
+            <a href="#" className="text-sm font-medium text-slate-600 hover:text-teal-600">Performance</a>
           </div>
 
           <div className="flex items-center gap-4">
@@ -43,10 +42,10 @@ export const AppLayout = ({ children }: { children: React.ReactNode }) => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Shield className="h-5 w-5 text-teal-600" />
-                <span className="text-lg font-bold">AthleteSafe</span>
+                <span className="text-lg font-bold">InjuryIQ</span>
               </div>
               <p className="text-sm text-slate-500 max-w-xs">
-                The gold standard in youth sports safety and compliance management.
+                The intelligent platform for injury prevention and athlete safety in youth sports.
               </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
@@ -77,7 +76,7 @@ export const AppLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-slate-100 text-center text-sm text-slate-400">
-            © 2026 AthleteSafe Technologies Inc. All rights reserved.
+            © 2026 InjuryIQ Technologies Inc. All rights reserved.
           </div>
         </div>
       </footer>
